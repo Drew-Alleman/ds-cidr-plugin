@@ -37,7 +37,7 @@ Here's an example:
         "version": "1.0.0",
         "help_message": "Extracts IPV4 Addresses with Cidr's attached",
         "regex": "\b((?:(?:25[0-5]|2[0-4]\\d|1\\d{2}|[1-9]\\d)\\.(?:25[0-5]|2[0-4]\\d|1\\d{2}|[1-9]\\d)|(?:25[0-5]|2[0-4]\\d|1\\d{2}|[1-9]\\d)\\.(?:25[0-5]|2[0-4]\\d|1\\d{2}|[1-9]\\d)\\.(?:25[0-5]|2[0-4]\\d|1\\d{2}|[1-9]\\d))(?::\\d{1,5})?)\b",
-        "source_url": "https://github.com/Drew-Alleman/ds-cidr-plugin/"
+        "source_url": "https://github.com/Drew-Alleman/ds-ipv4cidr-plugin"
     }
 ]
 ```
@@ -70,8 +70,8 @@ windows_registry: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\R
 ### Adding a New Plugin
 To add a new plugin you need to use the ```--add <URL>``` option. The URL needs to be a remote github repository hosting a ```plugins.json``` file. [How to use your new plugin](https://github.com/Drew-Alleman/ds-winreg-plugin/blob/main/README.md#how-to-use-your-new-plugin).
 ```
-drew@DESKTOP-A5AO3TO:~$ ds --add https://github.com/Drew-Alleman/ds-cidr-plugin/
-[*] Download and added plugin: https://github.com/Drew-Alleman/ds-cidr-plugin/
+drew@DESKTOP-A5AO3TO:~$ ds --add https://github.com/Drew-Alleman/ds-ipv4cidr-plugin
+[*] Download and added plugin: https://github.com/Drew-Alleman/ds-ipv4cidr-plugin
 ```
 ### Listing All Plugins
 To list all plugins you can use the ```--list``` option.
@@ -81,11 +81,11 @@ drew@DESKTOP-A5AO3TO$ ds --list
 Plugin File: /home/drew/.DataSurgeon/plugins.json
 
 Source URL                                      | Argument Long Name
-https://github.com/Drew-Alleman/ds-cidr-plugin/ | ipv4_cidr
+https://github.com/Drew-Alleman/ds-ipv4cidr-plugin | ipv4_cidr
 ```
 ### Removing a Plugin
 To remove a plugin you don't want anymore you can use the ```--remove``` option.
 ```
-drew@DESKTOP-A5AO3TO:~$ ds --remove https://github.com/Drew-Alleman/ds-cidr-plugin//
-[*] Removed plugin: https://github.com/Drew-Alleman/ds-cidr-plugin/
+drew@DESKTOP-A5AO3TO:~$ ds --remove https://github.com/Drew-Alleman/ds-ipv4cidr-plugin/
+[*] Removed plugin: https://github.com/Drew-Alleman/ds-ipv4cidr-plugin
 ```
