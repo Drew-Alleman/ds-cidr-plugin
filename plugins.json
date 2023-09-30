@@ -5,6 +5,6 @@
         "version": "1.0.0",
         "help_message": "Extracts IPV4 Addresses with Cidr's attached",
         "regex": "\b((?:(?:25[0-5]|2[0-4]\\d|1\\d{2}|[1-9]\\d)\\.(?:25[0-5]|2[0-4]\\d|1\\d{2}|[1-9]\\d)|(?:25[0-5]|2[0-4]\\d|1\\d{2}|[1-9]\\d)\\.(?:25[0-5]|2[0-4]\\d|1\\d{2}|[1-9]\\d)\\.(?:25[0-5]|2[0-4]\\d|1\\d{2}|[1-9]\\d))(?::\\d{1,5})?)\b",
-        "source_url": "https://github.com/Drew-Alleman/ds-cidr-plugin/"
+        "source_url": "https://github.com/Drew-Alleman/ds-ipv4cidr-plugin/"
     }
 ]
